@@ -1,5 +1,5 @@
 {% set name = "katex" %}
-{% set version = "0.16.9" %}
+{% set version = "0.16.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   - url: https://github.com/KaTeX/KaTeX/archive/refs/tags/v{{ version }}.tar.gz
-    sha256: 9f981dad36c339b6e85ee1293d4f74a405b894dbff2f314d1fd9f1d0db03f957
+    sha256: 76f4b1aa1ce86bc467b941923e01ba4907ff6e2c0c36eb6642129cdf3ef70d46
 
   - url: https://github.com/KaTeX/KaTeX/releases/download/v{{ version }}/katex.tar.gz
-    sha256: c57485ad08cbd31366f80d722dcfc9c29c5e58df49b0e3621c9187c36665af9b
+    sha256: b968d389d7b9455e191605e4984c52faf3123213271880b02abc45e6ad4bbf43
     folder: dist
 
 build:
